@@ -6,7 +6,7 @@ There are 4 user roles, accussed/accuser, jury, defense attorney and prosecution
 
 Two additional jar files are required
   1. javax.mail.jar - for sending email https://javaee.github.io/javamail/
-  2. mysql-connector-java-5.2.49.jar in the scr/ISproject folder
+  2. mysql-connector-java-5.2.49.jar in the scr folder
 
 NOTE: YOU NEED TO TURN NO 'Allow less secure apps in the security settings of the email address' in order to send email with the specified email address.
 
