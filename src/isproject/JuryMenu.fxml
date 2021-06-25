@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="isproject.JuryMenuController">
+   <children>
+      <Label fx:id="juryWelcomeLabel" layoutX="59.0" layoutY="37.0" text="Welcome">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="chargesheetButton" layoutX="59.0" layoutY="105.0" mnemonicParsing="false" onAction="#handleChargesheetButton" prefHeight="34.0" prefWidth="113.0" text="Charge Sheet">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="reportButton" layoutX="59.0" layoutY="166.0" mnemonicParsing="false" onAction="#handleReportButton" prefHeight="34.0" prefWidth="113.0" text="Report">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="evidenceButton" disable="true" layoutX="453.0" layoutY="47.0" mnemonicParsing="false" onAction="#handleEvidenceButton" opacity="0.0" prefHeight="34.0" prefWidth="113.0" text="Evidence">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="453.0" layoutY="336.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="27.0" prefWidth="84.0" text="Back">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
