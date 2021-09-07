@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="510.0" maxWidth="428.0" minHeight="464.0" minWidth="428.0" prefHeight="470.0" prefWidth="428.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="isproject.FXMLDocumentController">
+    <children>
+        <Button fx:id="loginButton" layoutX="175.0" layoutY="362.0" onAction="#handleLoginButtonAction" prefHeight="27.0" prefWidth="154.0" text="login">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font></Button>
+      <TextField fx:id="idTextfield" layoutX="175.0" layoutY="172.0" prefHeight="27.0" prefWidth="154.0" promptText="ID number">
+         <font>
+            <Font name="Consolas" size="13.0" />
+         </font></TextField>
+      <Label fx:id="idLabel" layoutX="72.0" layoutY="176.0" text="National ID :">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="passwordLabel" layoutX="72.0" layoutY="236.0" text="Password :">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="caseIdChoicebox" layoutX="175.0" layoutY="106.0" prefHeight="25.0" prefWidth="154.0" />
+      <Label fx:id="caseIdLabel" layoutX="72.0" layoutY="110.0" text="Case ID">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="welcomeLabel" layoutX="78.0" layoutY="40.0" prefHeight="17.0" prefWidth="119.0" text="Welcome ">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="roleChoicebox" layoutX="175.0" layoutY="285.0" prefHeight="25.0" prefWidth="154.0" />
+      <Label fx:id="roleLabel" layoutX="72.0" layoutY="289.0" text="Role">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitButton" layoutX="175.0" layoutY="404.0" onAction="#handleExitButtonAction" prefHeight="27.0" prefWidth="154.0" text="Exit">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordTextfield" layoutX="173.0" layoutY="232.0" prefHeight="25.0" prefWidth="154.0" promptText="password" />
+      <Label fx:id="messageLabel" alignment="CENTER" layoutX="2.0" layoutY="318.0" prefHeight="25.0" prefWidth="422.0" textAlignment="CENTER" textFill="#ff0808" underline="true">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

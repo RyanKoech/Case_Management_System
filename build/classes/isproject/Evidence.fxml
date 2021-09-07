@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="451.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="isproject.EvidenceController">
+   <children>
+      <Label fx:id="evidenceTopLabel" layoutX="56.0" layoutY="45.0" prefHeight="44.0" prefWidth="190.0" text="Evidence Panel">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="evidenceChoicebox" layoutX="56.0" layoutY="119.0" prefWidth="150.0" />
+      <TextArea fx:id="evidenceTextarea" layoutX="220.0" layoutY="158.0" prefHeight="208.0" prefWidth="337.0" promptText="Input evidence" wrapText="true" />
+      <Label fx:id="evidenceEnterLabel" layoutX="123.0" layoutY="152.0" prefHeight="32.0" prefWidth="83.0" text="Evidence:">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="474.0" layoutY="393.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="32.0" prefWidth="83.0" text="Back">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="uploadButton" layoutX="25.0" layoutY="387.0" mnemonicParsing="false" onAction="#handleUploadButton" prefHeight="32.0" prefWidth="83.0" text="Upload">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="editButton" layoutX="137.0" layoutY="387.0" mnemonicParsing="false" onAction="#handleEditButton" prefHeight="32.0" prefWidth="83.0" text="Edit">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteButton" layoutX="246.0" layoutY="387.0" mnemonicParsing="false" onAction="#handleDeleteButton" prefHeight="32.0" prefWidth="83.0" text="Delete">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="426.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="isproject.ChargeController">
+   <children>
+      <Label fx:id="chargesheetTopLabel" layoutX="53.0" layoutY="40.0" prefHeight="35.0" prefWidth="161.0" text="Chargesheet">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="chargesheetTextarea" layoutX="236.0" layoutY="115.0" prefHeight="226.0" prefWidth="319.0" promptText="Enter Case Details" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <Label fx:id="descriptionLabel" layoutX="53.0" layoutY="113.0" prefHeight="35.0" prefWidth="161.0" text="Case Description:">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="480.0" layoutY="372.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="30.0" prefWidth="72.0" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="saveButton" layoutX="236.0" layoutY="372.0" mnemonicParsing="false" onAction="#handleSaveButton" prefHeight="30.0" prefWidth="72.0" text="Save">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

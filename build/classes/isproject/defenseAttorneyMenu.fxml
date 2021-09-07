@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="isproject.DefenseAttorneyMenuController">
+   <children>
+      <Label layoutX="51.0" layoutY="36.0" prefHeight="27.0" prefWidth="119.0" text="Welcome">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="evidenceButton" layoutX="51.0" layoutY="116.0" mnemonicParsing="false" onAction="#handleEvidenceButton" prefHeight="33.0" prefWidth="90.0" text="Evidence">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="reportButton" layoutX="51.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleReportButton" prefHeight="33.0" prefWidth="90.0" text="Report">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="377.0" layoutY="332.0" mnemonicParsing="false" onAction="#handleBackButtton" prefHeight="27.0" prefWidth="106.0" text="Back to Login">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

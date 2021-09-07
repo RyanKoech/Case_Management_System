@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="isproject.SchedulerController">
+   <children>
+      <Label fx:id="scheduleLabel" layoutX="47.0" layoutY="55.0" prefHeight="36.0" prefWidth="108.0" text="Schedule">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="hourChoicebox" layoutX="193.0" layoutY="133.0" prefHeight="25.0" prefWidth="53.0" />
+      <Label fx:id="timeLabel" layoutX="90.0" layoutY="128.0" prefHeight="36.0" prefWidth="53.0" text="Time:">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="minuteChoicebox" layoutX="287.0" layoutY="133.0" prefHeight="25.0" prefWidth="53.0" />
+      <Label fx:id="dateLabel" layoutX="90.0" layoutY="190.0" prefHeight="36.0" prefWidth="53.0" text="Date:">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="dateChoicebox" layoutX="193.0" layoutY="206.0" prefHeight="25.0" prefWidth="53.0" />
+      <ChoiceBox fx:id="yearChoicebox" layoutX="385.0" layoutY="206.0" prefHeight="25.0" prefWidth="63.0" />
+      <ChoiceBox fx:id="monthChoicebox" layoutX="265.0" layoutY="206.0" prefHeight="25.0" prefWidth="97.0" />
+      <Button fx:id="backButton" layoutX="376.0" layoutY="330.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="27.0" prefWidth="72.0" text="Back">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="hourLabel" alignment="CENTER" layoutX="197.0" layoutY="101.0" prefHeight="27.0" prefWidth="45.0" text="Hour" textFill="#7c6b6b">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="minuteLabel" alignment="CENTER" layoutX="282.0" layoutY="101.0" prefHeight="27.0" prefWidth="63.0" text="Minute" textFill="#7c6b6b">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateLabel" alignment="CENTER" layoutX="188.0" layoutY="177.0" prefHeight="27.0" prefWidth="63.0" text="Date" textFill="#7c6b6b">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="monthLabel" alignment="CENTER" layoutX="282.0" layoutY="177.0" prefHeight="27.0" prefWidth="63.0" text="Month" textFill="#7c6b6b">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="yearLabel" alignment="CENTER" layoutX="385.0" layoutY="177.0" prefHeight="27.0" prefWidth="63.0" text="Year" textFill="#7c6b6b">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="setButton" layoutX="107.0" layoutY="330.0" mnemonicParsing="false" onAction="#handleSetButton" prefHeight="27.0" prefWidth="72.0" text="set">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
